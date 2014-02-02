@@ -1,0 +1,14 @@
+{
+    "name": "hackertools",
+    "repo": "ryyan/hackertools",
+    "version": "0.0.1",
+    "main": "_public/js/app.js",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "angular": "~1.2"
+    }
+}

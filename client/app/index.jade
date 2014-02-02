@@ -1,0 +1,26 @@
+doctype html
+html(lang="en" ng-app="app")
+	include partials/head
+	body#container.pure-g-r(ng-controller="controller")
+		#header.pure-u-1.pure-menu.pure-menu-open.pure-menu-horizontal
+			.pure-menu-heading Hacker Tools
+			input(placeholder="Search")
+			ul.pure-hidden-phone
+				li
+					a(href="#") New Tool
+				li
+					a(href="#") Stack
+		#content.pure-u-1
+			table.pure-table
+				tbody
+					tr.tool(ng-repeat="tool in tools")
+						td.tool-panel
+							.tool-name {{ tool.name }}
+							.tool-description {{ tool.description }}
+							.tool-tags {{ tool.tags }}
+							.tool-menu.pure-menu.pure-menu-horizontal.pure-menu-open.pure-hidden-phone
+								ul
+									li
+										a(href="#").button-edit [Edit]
+									li
+										a(href="#").button-report [Report]

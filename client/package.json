@@ -1,0 +1,32 @@
+{
+    "name": "HackerTools",
+    "description": "All the tools for your hacker needs.",
+    "author": "ryyan",
+    "homepage": "",
+    "version": "0.0.1",
+    "private":  true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ryyan/hackertools.git"
+    },
+    "scripts": {
+        "start": "node_modules/.bin/brunch watch --server",
+        "test": "node_modules/.bin/karma start test/karma.conf.js"
+    },
+    "dependencies": {
+        "brunch": "~1.7",
+        "javascript-brunch": "~1.7",
+        "coffee-script-brunch": "~1.7",
+        "css-brunch": "~1.7",
+        "uglify-js-brunch": "~1.7",
+        "clean-css-brunch": "~1.7",
+        "stylus-brunch": "~1.7",
+        "jade-brunch": "~1.7",
+
+        "bower": "~1.2",
+        
+        "karma": "~0.10",
+        "karma-coffee-preprocessor": "~0.1",
+        "karma-ng-scenario": "~0.1"
+    }
+}
