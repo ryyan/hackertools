@@ -3,9 +3,9 @@ Tools for your hacker needs
 
 
 ## Getting Started
-Open a console and run the following
-<code>npm install && bower install
-brunch watch --server<code>
+Open a console and run the following  
+<code>npm install && bower install<code>  
+<code>brunch watch --server<code>
 
 
 ## Kudos
