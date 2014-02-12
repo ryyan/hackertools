@@ -10,4 +10,4 @@ Open a console and run the following
 
 ## Kudos
 [angular-brunch-seed](https://github.com/scotch/angular-brunch-seed/)<br />
-[fast-and-pointed-brunch](https://github.com/tdumitrescu/fast-and-pointed-brunch
+[fast-and-pointed-brunch](https://github.com/tdumitrescu/fast-and-pointed-brunch)
