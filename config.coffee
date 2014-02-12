@@ -1,30 +1,39 @@
 exports.config =
-  # See docs at http://brunch.readthedocs.org/en/latest/config.html.
+  server:
+    path: 'server/server.coffee'
+    port: 3333
+    base: '/'
+    run: yes
+
   conventions:
-    assets:  /^app\/assets\//
+    assets:  /^client\/assets\//
     ignored: /^(bower_components\/bootstrap-less(-themes)?|app\/styles\/overrides)/
+  
   modules:
     definition: false
     wrapper: false
+
   paths:
     public: '_public'
+    watched: ['client', 'vendor']
+
   files:
     javascripts:
       joinTo:
-        'js/app.js': /^app/
+        'js/app.js': /^client/
         'js/vendor.js': /^(bower_components|vendor)/
 
     stylesheets:
       joinTo:
-        'css/app.css': /^(app|vendor|bower_components)/
+        'css/app.css': /^(client|vendor|bower_components)/
 
     templates:
       joinTo: 
-        'js/dontUseMe' : /^app/ # dirty hack for Jade compiling.
+        'js/dontUseMe' : /^(client|partials) / # dirty hack for Jade compiling.
 
   plugins:
-    jade:
-      pretty: yes
-      
+    jaded:
+      staticPatterns: /^client(\/|\\)(.+)\.jade$/
+
   # Enable or disable minifying of result js / css files.
   minify: true

@@ -1,9 +1,13 @@
 # Hacker Tools
 Tools for your hacker needs
 
-## Getting Started
-1. In a console, navigate to the client folder and run "sudo npm install"
-2. Run "brunch watch --server" to start the client
 
-#### Thanks
-[Built with angular-brunch-seed](https://github.com/scotch/angular-brunch-seed/)
+## Getting Started
+Open a console and run the following
+<code>npm install && bower install
+brunch watch --server<code>
+
+
+## Kudos
+[angular-brunch-seed](https://github.com/scotch/angular-brunch-seed/)
+[fast-and-pointed-brunch](https://github.com/tdumitrescu/fast-and-pointed-brunch)
