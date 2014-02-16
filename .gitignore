@@ -13,8 +13,11 @@ bower_components/*
 .settings
 .idea/*
 
+public
+public/*
 _public
 _public/*
 *.log
 
 test/test-results.xml
+project.*
