@@ -1,0 +1,27 @@
+{
+  "name": "HackerTools",
+  "description": "All the tools for your hacker needs.",
+  "author": "ryyan",
+  "homepage": "",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryyan/hackertools.git"
+  },
+  "scripts": {
+    "install": "node_modules/.bin/bower update",
+    "update": "node_modules/.bin/bower update",
+    "start": "node_modules/.bin/brunch watch --server"
+  },
+  "dependencies": {
+        "brunch": "latest",
+        "javascript-brunch": "latest",
+        "coffee-script-brunch": "latest",
+        "css-brunch": "latest",
+        "uglify-js-brunch": "latest",
+        "clean-css-brunch": "latest",
+        
+        "bower": "latest"
+  }
+}

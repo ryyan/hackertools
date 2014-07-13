@@ -1,13 +1,20 @@
 # Hacker Tools
-Tools for your hacker needs
 
+## Prereqs
+* Install node
+* Install go
 
 ## Getting Started
-Open a console and run the following  
-<code>npm install && bower install</code><br />
-<code>brunch watch --server</code>
+```bash
+bash server/getimports.sh
+go run server/server.go > server/log &
+cd client
+npm install
+npm start
+```
 
-
-## Kudos
-[angular-brunch-seed](https://github.com/scotch/angular-brunch-seed/)<br />
-[fast-and-pointed-brunch](https://github.com/tdumitrescu/fast-and-pointed-brunch)
+```html
+http://localhost:8888/
+http://localhost:8888/api/tools
+http://localhost:8888/api/status
+```
